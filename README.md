@@ -33,10 +33,10 @@ and follow the cells sequentially.
 
 ```
 Student-performance-ML/
-├── data/               # Dataset CSV files
-├── notebooks/          # Jupyter notebook(s)
-├── README.md           # This file
-└── requirements.txt    # Python dependencies
+data/               # Dataset CSV files
+notebooks/          # Jupyter notebook(s)
+README.md           # This file
+requirements.txt    # Python dependencies
 ```
 
 ## Results
