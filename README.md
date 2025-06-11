@@ -1,53 +1,73 @@
-Student Exam Performance Prediction
 
-Overview
-Predicts student pass/fail status using Machine learning. 
 
-Installation
-1. Clone repository:
-   bash
-   git clone https://github.com/your-username/your-repo-name.git
-   
-2. Install dependencies:
-   bash
+# Student Exam Performance Prediction
+
+## Overview
+
+This project uses machine learning models to predict whether a student will pass or fail based on various personal, family, and academic attributes. The dataset used is the **Student Performance Data** from the UCI Machine Learning Repository.
+
+## Dataset
+
+The dataset contains student records with features like age, study time, failures, family support, and grades. It was used to train and test multiple classification models.
+
+## Installation & Setup
+
+1. Make sure you have Python installed.
+2. Install the required Python libraries using:
+
+   ```
    pip install -r requirements.txt
-   
-Usage
-Run the main notebook:
-  bash
+   ```
+
+## Usage
+
+To run the analysis, open the notebook:
+
+```
 jupyter notebook notebooks/ML CAT1.ipynb
+```
 
+and follow the cells sequentially.
 
-Project Structure
+## Project Structure
 
-student-performance-prediction/
-data/          # Dataset
-notebooks/     # Analysis notebook
-README.md      # Current file 
-requirements.txt 
+```
+Student-performance-ML/
+├── data/               # Dataset CSV files
+├── notebooks/          # Jupyter notebook(s)
+├── output/             # (if you generated any output files)
+├── README.md           # This file
+└── requirements.txt    # Python dependencies
+```
 
+## Results
 
-Results
+Three models were tested:
 
-Best model: Logical regression
-- Accuracy: 81%  
-- F1-Score: 0.85  
-Confusion Matrix:  
-               Predicted Fail  Predicted Pass 
+* **Logistic Regression**
+* **Decision Tree**
+* **Random Forest**
 
- Actual Fail  45        8        
- Actual Pass  12        120      
+### Model Performance:
 
-   Model              Accuracy  F1 Score 
- 
- Logistic Regression  0.882051  0.934097 
- Decision Tree        0.825641  0.897590 
- Random Forest        0.882051  0.935933 
+| Model               | Accuracy | F1 Score |
+| :------------------ | :------- | :------- |
+| Logistic Regression | 0.8820   | 0.9341   |
+| Decision Tree       | 0.8256   | 0.8976   |
+| Random Forest       | 0.8820   | 0.9359   |
 
- Final Verdict:
-The best performing model for this task was Logistic Regression, delivering an accuracy of 88.2% and an F1-Score of 0.93.
+**Best model:** Logistic Regression
 
+### Confusion Matrix (Logistic Regression)
 
+|                 | Predicted Fail | Predicted Pass |
+| :-------------- | :------------- | :------------- |
+| **Actual Fail** | 45             | 8              |
+| **Actual Pass** | 12             | 120            |
 
-Actual Fail  45              8             
-Actual Pass  12              120            
+## Conclusion
+
+The Logistic Regression model gave the best balance of accuracy and F1-score in predicting student exam performance. This project demonstrates the application of basic classification models in an educational data mining context.
+
+---
+
