@@ -9,6 +9,7 @@ This project uses machine learning models to predict whether a student will pass
 ## Dataset
 
 The dataset contains student records with features like age, study time, failures, family support, and grades. It was used to train and test multiple classification models.
+Dataset link - https://archive.ics.uci.edu/dataset/320/student+performance
 
 ## Installation & Setup
 
