@@ -1,7 +1,7 @@
 Student Exam Performance Prediction
 
 Overview
-Predicts student pass/fail status using Machine learning. Dataset: [Student Performance Data]
+Predicts student pass/fail status using Machine learning. 
 
 Installation
 1. Clone repository:
@@ -49,6 +49,5 @@ The best performing model for this task was Logistic Regression, delivering an a
 
 
 
-             Predicted Fail Predicted Pass 
 Actual Fail  45              8             
 Actual Pass  12              120            
