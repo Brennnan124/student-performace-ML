@@ -35,7 +35,6 @@ and follow the cells sequentially.
 Student-performance-ML/
 ├── data/               # Dataset CSV files
 ├── notebooks/          # Jupyter notebook(s)
-├── output/             # (if you generated any output files)
 ├── README.md           # This file
 └── requirements.txt    # Python dependencies
 ```
